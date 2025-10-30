@@ -10,11 +10,12 @@ sudo yum install -y java-17-amazon-corretto
 sudo mkdir -p /app && cd /app
 
 # Download Nexus 3.84.1-01
-sudo wget https://download.sonatype.com/nexus/3/nexus-3.84.1-01-linux-x86_64.tar.gz -O nexus.tar.gz
+sudo wget https://download.sonatype.com/nexus/3/nexus-3.85.0-03-linux-x86_64.tar.gz -O nexus.tar.gz
+          
 
 # Extract and rename
 sudo tar -xvf nexus.tar.gz
-sudo mv nexus-3.84.1-01 nexus
+sudo mv nexus-3.85.0-03 nexus
 
 # Create nexus user
 sudo adduser nexus
